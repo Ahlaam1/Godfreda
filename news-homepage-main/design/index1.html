@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Web3 Blog</title>
+
+    <style>
+      body {
+font-family: 'Inter', sans-serif;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex;
+        padding-right: 100px;
+        gap: 20px;
+        ;
+    }
+      img {
+        height: 50px;
+        width: 50px;
+       } 
+       .red {
+        color: hsl(5, 85%, 63%);
+       }
+       button {
+        background:hsl(240, 100%, 5%);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        height: 40px;
+        width: 100px;
+       }
+
+       .cards {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px, 10%
+       }
+       .card 
+       {
+        display: flex;
+        flex-direction: column;
+       }
+       .sidebar {
+        background-color: hsl(240, 100%, 5%);
+        color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        flex: 1;
+       }
+       .main {
+        display: flex;
+        padding: 40px 10%;
+        gap: 40px;
+       }
+       .hero {
+        flex: 2;
+       }
+       
+    
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="wordlogo">W.</h1>
+   <nav>
+    <a href="#">Home</a>
+    <a href="#" style="display: flex; align-items: flex-start;">New</a>
+     <a href="#">Popular</a>
+    <a href="#">Trending</a>
+    <a href="#">Categories</a>
+   </nav>
+    </header>
+    <div class="main"> 
+    <div class="hero">
+        <img src="https://th.bing.com/th/id/OIP.VMA2qLQnUqK3tj8ctJtC9QHaE8?rs=1&pid=ImgDetMain" alt="Sorry" style="width: 300px; height:150px;">
+        <h1>The Bright Future of Web3.0</h1>
+     <p>We dive into the next evolution of the web that claims 
+        to put the power of the platforms back into the hands of the people. 
+        But is it really fulfilling its promise?</p>
+        <button>READ MORE</button>
+
+    </div>
+    <aside class="sidebar">
+        <h1 style="color: (35, 77%, 62%)">New</h1>
+        <article>
+            <h3>Hydrogen VS Electric cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </article>
+        <article>
+            <h3>The Downsides of AI Industry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </article>
+        <article>
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means</p>
+        </article>
+
+    </aside>
+    </div>
+   <section class="cards">
+     <div class="card">
+     <img src="https://th.bing.com/th/id/OIP.s_0CseurhGcukM_Qrsz-zwHaE8?rs=1&pid=ImgDetMain" alt="">
+        <h3 class="red">01</h3>
+        <h3>Reviving Retro-PCs</h3>
+        <p>What happens when old PCs are given modern upgrades</p>
+    </div>
+     <div class="card">
+     <img src="https://m.media-amazon.com/images/I/71DYlRN51tL._AC_SL1500_.jpg" alt="">
+        <h3 class="red">02</h3>
+        <h3 class="red">Top ten Laptops for 2022</h3>
+        <p>Our best picks for various needs and budgets</p>
+        
+    </div>
+    <div class="card">
+        <img src="https://th.bing.com/th/id/R.f492931cab6c724d0d39bd0aa2bf2683?rik=N2bAFY3gaGH7lA&pid=ImgRaw&r=0" alt="">
+        <h3 class="red">03</h3>
+        <h3>The growth of Gaming</h3>
+        <p>How the pandemic has sparked fresh opportunities</p>
+    </div>
+   
+     
+   </section>
+</body>
+</html>
